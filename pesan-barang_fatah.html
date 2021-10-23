@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Web Page</title>
+</head>
+<body style="background-color: pink;">
+    <nav style=" width: 85%;">
+        <ul style="display: flex; border: 1px solid black;">
+            <li style="margin-right: 120px;"><a href="">Home |</a></li>
+            <li style="margin-right: 120px;"><a href="">Generate Link |</a></li>
+            <li style="margin-right: 120px;"><a href="">Transaction History |</a></li>
+            <li style="margin-right: 120px;"><a href="">Policy |</a></li>
+            <li style="margin-right: 120px;"><a href="">Logout</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div style="display: flex; justify-content: space-between; align-items: center; background-color: blanchedalmond;">
+            <div>
+                <header>
+                    <table>
+                        <tr>
+                            <td><img src="acer predator.jpeg" alt="Acer Predator" style="width: 300px; height: 150px;"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="Upload Picture"></td>
+                        </tr>
+                    </table>
+                </header>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <td>Title Here :</td>
+                        <td><input type="text" style="padding-left: 100px;"></td>
+                    </tr>
+                    <tr>
+                        <td>Descripton :</td>
+                        <td><textarea cols="30" rows="5"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Account Number :</td>
+                        <td><input type="number" name="number" id="number"></td>
+                    </tr>
+                    <tr>
+                        <td>Bank :</td>
+                        <td><select name="bank" id="bank">
+                                    <option value="HSBC">HSBC</option>
+                                    <option value="Mandiri">Mandiri</option>
+                                    <option value="BNI">BNI</option>
+                                    <option value="BRI">BRI</option>
+                                    <option value="Syariah">Syariah</option>
+                                </select></td>
+                    </tr>
+                    <tr>
+                        <td>Account Holder</td>
+                        <td>
+                            <input type="text" value="Name Here"></td>
+                    </tr>
+                    <tr>
+                        <td>Transaction :</td>
+                        <td><select name="Transaction">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td> </td>
+                        <td>* if the Transaction is for 3 person, choose 3 form the drop-down list <br>
+                            <input type="checkbox">Send to Mobile Phone <br>
+                            <input type="checkbox">Send to Email
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Send to Mobile Phone</td>
+                        <td><input type="number"></td>
+                    </tr>
+                    <tr>
+                        <td>Send to Email</td>
+                        <td><input type="email"></td>
+                    </tr>
+                    <tr>
+                        <td><br><br><br></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Generate Nabr Link" style="background-color: chartreuse;"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
